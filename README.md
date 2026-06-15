@@ -28,6 +28,8 @@ If you already cloned it without submodules, run this from the project root:
 git submodule update --init --recursive
 ```
 
+Prerequisites: Python 3.10 and Python 3.11 must be available as `python3.10` and `python3.11`.
+
 First create the environments:
 
 ```bash
