@@ -1,0 +1,6 @@
+[submodule "repos/NeurASP"]
+	path = repos/NeurASP
+	url = https://github.com/azreasoners/NeurASP.git
+[submodule "repos/deepproblog"]
+	path = repos/deepproblog
+	url = https://github.com/ML-KULeuven/deepproblog.git

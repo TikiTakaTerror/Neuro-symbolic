@@ -15,6 +15,19 @@ All experiments use the same CNN, MNIST split, and random seed.
 
 ## How to run
 
+Clone the repository with the framework submodules:
+
+```bash
+git clone --recurse-submodules git@github.com:TikiTakaTerror/Neuro-symbolic.git
+cd Neuro-symbolic
+```
+
+If you already cloned it without submodules, run this from the project root:
+
+```bash
+git submodule update --init --recursive
+```
+
 First create the environments:
 
 ```bash
@@ -29,10 +42,11 @@ python3.11 -m venv venvs/venv_lnn
 venvs/venv_lnn/bin/pip install torch torchvision "git+https://github.com/IBM/LNN.git"
 ```
 
-DeepProbLog also needs SWI-Prolog:
+DeepProbLog also needs SWI-Prolog. The full runner also uses GNU timeout
+(`gtimeout` on macOS):
 
 ```bash
-brew install swi-prolog
+brew install swi-prolog coreutils
 ```
 
 To run everything:
