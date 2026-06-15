@@ -1,0 +1,5 @@
+[lnn] training decoupled CNN perception on MNIST digits...
+[lnn] CNN digit acc: 97.11%   (trained 6.4s)
+[lnn] sum acc over 1000 instances: 92.70%
+[lnn] LNN inference: 56.9 ms/instance
+[lnn] wrote /Users/abdullahsaeed/NeSy/results/lnn_result.csv

@@ -1,0 +1,2 @@
+framework,category,n_digits,sum_acc,digit_acc,cnn_train_time_s,lnn_inference_ms_per_instance,eval_instances,mode,seed,timestamp
+LNN,C (structure/architecture),1,92.7,97.11,6.36,56.91,1000,reasoning-only: CNN trained separately (LNN cannot backprop to CNN),42,2026-06-15T14:40:28

@@ -1,0 +1,6 @@
+setup,framework,method,n_digits,train_pairs_budget,batch_size,epochs_equiv,final_sum_acc,final_digit_acc,total_train_time_s,time_per_pass_s,iters_to_90_pairs,time_to_90_s,status,seed,timestamp
+neurasp_n1,NeurASP,constraint,1,15000,1,0.5,95.08,97.45,33.2,66.4,3000,7.07,completed,42,2026-06-15T14:05:08
+neurasp_n2,NeurASP,constraint,2,15000,1,1.0,92.52,98.07,77.1,77.1,9000,46.72,completed,42,2026-06-15T14:06:31
+neurasp_n3,NeurASP,constraint,3,15000,1,1.0,86.194,97.54,286.6,286.6,,,completed,42,2026-06-15T14:11:23
+dpl_exact_n1,DeepProbLog,exact,1,15000,2,0.5,90.7,95.19,56.6,113.19,13500,51.06,completed,42,2026-06-15T14:12:26
+dpl_exact_n2,DeepProbLog,exact,2,15000,2,1.0,91.2,97.64,307.35,307.35,15000,307.35,completed,42,2026-06-15T14:17:40

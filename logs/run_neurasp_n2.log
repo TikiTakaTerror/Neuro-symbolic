@@ -1,0 +1,14 @@
+[neurasp n=2] building dataset...
+Device: cpu
+[neurasp n=2] init sum=0.12 digit=17.49
+[neurasp n=2] pairs=1500 time=8.0s sum=76.92 digit=93.58
+[neurasp n=2] pairs=3000 time=16.0s sum=85.40 digit=96.06
+[neurasp n=2] pairs=4500 time=23.7s sum=88.52 digit=96.96
+[neurasp n=2] pairs=6000 time=31.5s sum=87.64 digit=96.71
+[neurasp n=2] pairs=7500 time=39.1s sum=85.68 digit=96.23
+[neurasp n=2] pairs=9000 time=46.7s sum=91.64 digit=97.83
+[neurasp n=2] pairs=10500 time=54.3s sum=89.76 digit=97.29
+[neurasp n=2] pairs=12000 time=61.8s sum=91.28 digit=97.73
+[neurasp n=2] pairs=13500 time=69.5s sum=90.48 digit=97.45
+[neurasp n=2] pairs=15000 time=77.1s sum=92.52 digit=98.07
+[neurasp n=2] DONE status=completed sum=92.52 digit=98.07 time=77.1s

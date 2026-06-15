@@ -1,0 +1,7 @@
+setup,framework,n_digits,ms_per_step,completed,note
+neurasp_n1,NeurASP,1,2.19,yes,completed 15000 pairs / 32.9s
+neurasp_n2,NeurASP,2,5.71,yes,completed 15000 pairs / 85.6s
+neurasp_n3,NeurASP,3,30.63,yes,completed 10000 pairs / 306.3s (digit 97.5% sum 86.2%)
+dpl_exact_n1,DeepProbLog exact,1,4.10,yes,completed 15000 pairs / 61.5s
+dpl_exact_n2,DeepProbLog exact,2,23.49,yes,completed 15000 pairs / 352.3s
+dpl_exact_n3,DeepProbLog exact,3,,no,circuit did not compile within 1300s (21 min) - zero training steps
